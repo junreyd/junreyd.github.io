@@ -6,11 +6,43 @@
     <title>Portfolio</title>
     <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .banner {
+            background: url('your-image-url.jpg') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .banner-text {
+            text-align: center;
+            animation: fadeIn 2s ease-out;
+        }
+        .banner-text h1 {
+            font-size: 48px;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+        }
+        .banner-text p {
+            font-size: 24px;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Your Name</a>
+            <a class="navbar-brand" href="#">Junrey D.</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -32,6 +64,12 @@
             </div>
         </nav>
     </header>
-    <!-- Content here -->
+    <div class="banner">
+        <div class="banner-text">
+            <h1>Junrey D.</h1>
+            <p>Developer | Designer | Innovator</p>
+        </div>
+    </div>
 </body>
 </html>
+
