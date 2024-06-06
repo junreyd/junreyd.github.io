@@ -23,7 +23,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.icon-security:before {
+  content: "\e937";
+}
+.icon-ai:before {
+  content: "\e936";
+}
 .icon-times:before {
   content: "\e930";
 }
