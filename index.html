@@ -1,1000 +1,211 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>DucJunrey</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<meta name="author" content="" />
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071321">
+  <meta name="description" content="Portfolio of Junrey Ducay, a Microsoft 365 Developer specializing in SharePoint, Power Platform, SPFx, integrations, and business applications.">
+  <meta name="author" content="Junrey Ducay">
+  <meta property="og:title" content="Junrey Ducay | Microsoft 365 Developer">
+  <meta property="og:description" content="Microsoft 365 and SharePoint solutions that simplify work, connect systems, and improve daily operations.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://junreyd.github.io/">
+  <meta property="og:image" content="https://junreyd.github.io/images/hero-workflows.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Junrey Ducay | Microsoft 365 Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/portfolio.css">
+  <script src="js/portfolio.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-  <!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+  <header class="site-header" id="top">
+    <div class="shell nav-wrap">
+      <a class="brand" href="#top" aria-label="Junrey Ducay, home">
+        <span class="brand-mark" aria-hidden="true">JD</span>
+        <span class="brand-copy">
+          <strong>Junrey Ducay</strong>
+          <small>Microsoft 365 Developer</small>
+        </span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#work">Solutions</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a class="nav-cta" href="#contact">Let's talk</a>
+      </nav>
+    </div>
+  </header>
 
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
+  <main id="main-content">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-media" role="img" aria-label="Abstract cloud platform and connected business workflow illustration"></div>
+      <div class="hero-overlay"></div>
+      <div class="shell hero-content">
+        <p class="eyebrow hero-eyebrow"><span></span> Microsoft 365 Developer · Philippines</p>
+        <h1 id="hero-title">I build practical digital solutions that move work forward.</h1>
+        <p class="hero-lead">Nine years of experience delivering SharePoint, Power Platform, SPFx, integration, and full-stack solutions that make business processes simpler, faster, and more reliable.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="files/Junrey_Ducay_CV.pdf" download="Junrey_Ducay_CV.pdf">
+            Download CV
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 5-5m-5 5-5-5M5 21h14"/></svg>
+          </a>
+          <a class="button button-ghost" href="#experience">View experience</a>
+        </div>
+        <ul class="hero-tags" aria-label="Core specialties">
+          <li>SharePoint Online</li><li>Power Platform</li><li>SPFx</li><li>System Integration</li>
+        </ul>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to about section">
+        <span>Scroll</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </a>
+    </section>
 
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
-	<!-- Flaticons  -->
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+    <section class="proof-strip" aria-label="Professional highlights">
+      <div class="shell proof-grid">
+        <div><strong>9</strong><span>Years of experience</span></div>
+        <div><strong>5</strong><span>Enterprise teams</span></div>
+        <div><strong>M365</strong><span>Certified developer</span></div>
+        <div><strong>End-to-end</strong><span>Build, deploy &amp; support</span></div>
+      </div>
+    </section>
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+    <section class="section section-light" id="about" aria-labelledby="about-title">
+      <div class="shell about-grid">
+        <div class="profile-visual reveal">
+          <div class="profile-frame"><img src="images/jrprofile.jpg" alt="Portrait of Junrey Ducay" width="855" height="1176"></div>
+          <div class="availability-card">
+            <span class="status-dot" aria-hidden="true"></span>
+            <p><strong>Bantayan Island, Cebu</strong><br>Available for meaningful projects</p>
+          </div>
+        </div>
+        <div class="about-copy reveal">
+          <p class="eyebrow">About me</p>
+          <h2 id="about-title">Turning complex processes into reliable everyday tools.</h2>
+          <p class="lead">I’m a Microsoft 365 and SharePoint Developer with experience across solution design, workflow automation, system integration, production deployment, and application support.</p>
+          <p>My work spans Power Apps, Power Automate, SharePoint Online, SPFx, Dataverse, Salesforce, and full-stack web development. I focus on solutions that are technically sound, easy to use, and grounded in how teams actually work.</p>
+          <div class="about-points">
+            <div><span class="point-number">01</span><p><strong>Business-first delivery</strong><br>Translate operational needs into maintainable digital solutions.</p></div>
+            <div><span class="point-number">02</span><p><strong>Connected platforms</strong><br>Bring applications, data, APIs, and workflows together securely.</p></div>
+          </div>
+          <a class="text-link" href="mailto:ducjunrey@gmail.com">Start a conversation <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
 
-	</head>
-	<body>
-	<div id="colorlib-page">
-		<div class="container-wrap">
-		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
-			<div class="text-center">
-				<div class="author-img" style="background-image: url(images/jrprofile.jpg);"></div>
-				<h1 id="colorlib-logo"><a href="index.html">Junrey Ducay</a></h1>
-				<span class="position"><a href="#">SharePoint/Fullstack Developer</a> in Philippines</span>
-			</div>
-			<nav id="colorlib-main-menu" role="navigation" class="navbar">
-				<div id="navbar" class="collapse">
-					<ul>
-						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
-						<li><a href="#" data-nav-section="about">About</a></li>
-						<li><a href="#" data-nav-section="services">Services</a></li>
-						<li><a href="#" data-nav-section="skills">Skills</a></li>
-						<li><a href="#" data-nav-section="education">Education</a></li>
-						<li><a href="#" data-nav-section="experience">Experience</a></li>
-						<li><a href="#" data-nav-section="work">Work</a></li>
-						<!-- <li><a href="#" data-nav-section="blog">Blog</a></li> -->
-						<li><a href="#" data-nav-section="contact">Contact</a></li>
-					</ul>
-				</div>
-			</nav>
+    <section class="section section-ink" id="expertise" aria-labelledby="expertise-title">
+      <div class="shell">
+        <div class="section-heading section-heading-split reveal">
+          <div><p class="eyebrow eyebrow-light">What I do</p><h2 id="expertise-title">Microsoft 365 engineering, from idea to operation.</h2></div>
+          <p>I combine low-code speed with custom development depth to create solutions that fit the process—not the other way around.</p>
+        </div>
+        <div class="expertise-grid">
+          <article class="expertise-card reveal"><span class="card-index">01</span><h3>SharePoint &amp; SPFx</h3><p>Modern SharePoint sites, custom web parts, library extensions, permissions, and client-specific functionality.</p><ul><li>SharePoint Online</li><li>SharePoint 2013/2016</li><li>SPFx</li></ul></article>
+          <article class="expertise-card reveal"><span class="card-index">02</span><h3>Power Platform</h3><p>Business applications, approval workflows, process automation, reporting, and data experiences built for daily use.</p><ul><li>Power Apps</li><li>Power Automate</li><li>Power BI</li></ul></article>
+          <article class="expertise-card reveal"><span class="card-index">03</span><h3>Integration &amp; Add-ins</h3><p>Connected solutions using Microsoft Graph, REST APIs, custom connectors, Azure services, and Outlook add-ins.</p><ul><li>Microsoft Graph</li><li>Xero API</li><li>Outlook Add-ins</li></ul></article>
+          <article class="expertise-card reveal"><span class="card-index">04</span><h3>Application Development</h3><p>Responsive interfaces and maintainable application logic across Microsoft, Salesforce, and web stacks.</p><ul><li>JavaScript &amp; TypeScript</li><li>React &amp; Node.js</li><li>C# &amp; ASP.NET</li></ul></article>
+        </div>
+      </div>
+    </section>
 
-			<div class="colorlib-footer">
-				<p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright <script>document.write(new Date().getFullYear());</script> All rights reserved. Made with <i class="icon-heart" aria-hidden="true"></i> by <a href="#" target="_blank">ducjunrey</a></small></p>
-				<ul>
-					<li><a href="#"><i class="icon-facebook2"></i></a></li>
-					<li><a href="#"><i class="icon-twitter2"></i></a></li>
-					<li><a href="#"><i class="icon-instagram"></i></a></li>
-					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
-				</ul>
-			</div>
+    <section class="section section-muted" id="work" aria-labelledby="work-title">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Representative solutions</p>
+          <h2 id="work-title">Systems built around real business needs.</h2>
+          <p>Selected solution types delivered across recent roles. Client-sensitive details are intentionally kept private.</p>
+        </div>
+        <div class="work-grid">
+          <article class="work-card work-card-featured reveal">
+            <div class="work-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 17V7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10M2 17h20v2H2zM8 9h3v4H8zm5 0h3v2h-3zm0 4h3v2h-3z"/></svg></div>
+            <div><p class="work-label">Operations</p><h3>Vehicle &amp; Task Management</h3><p>Power Apps and Microsoft 365 applications designed to coordinate vehicles, tasks, records, and operational activity.</p></div>
+            <div class="work-stack"><span>Power Apps</span><span>Microsoft 365</span><span>SharePoint</span></div>
+          </article>
+          <article class="work-card reveal">
+            <div class="work-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 4 7v5c0 5 3.4 8 8 9 4.6-1 8-4 8-9V7l-8-4Zm-3 9 2 2 4-4"/></svg></div>
+            <p class="work-label">Governance</p><h3>Incident &amp; Approval Management</h3><p>Forms, business logic, access controls, multi-level approvals, and reporting for incident operations.</p><div class="work-stack"><span>Power Apps</span><span>Power Automate</span><span>Power BI</span></div>
+          </article>
+          <article class="work-card reveal">
+            <div class="work-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4h14v16H5zM8 8h8M8 12h5M8 16h3"/></svg></div>
+            <p class="work-label">Business applications</p><h3>RFID &amp; Insurance Systems</h3><p>Record tracking, validation, approvals, notifications, and reporting connected through SharePoint and Power Platform.</p><div class="work-stack"><span>SharePoint</span><span>Power Platform</span><span>Reporting</span></div>
+          </article>
+          <article class="work-card reveal">
+            <div class="work-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m12 3 8 4-8 4-8-4 8-4Zm-8 9 8 4 8-4M4 17l8 4 8-4"/></svg></div>
+            <p class="work-label">Modernization</p><h3>SharePoint Publishing Upgrade</h3><p>A modernized interface, updated components, stronger security, and workflow enhancements for a publishing site.</p><div class="work-stack"><span>SharePoint</span><span>Bootstrap</span><span>Security</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-		</aside>
+    <section class="section section-light" id="experience" aria-labelledby="experience-title">
+      <div class="shell experience-layout">
+        <div class="experience-intro reveal">
+          <p class="eyebrow">Career journey</p><h2 id="experience-title">Work experience</h2>
+          <p>Progressing from hands-on SharePoint development to leading Microsoft 365 delivery across applications, automation, integrations, and support.</p>
+          <a class="button button-dark" href="files/Junrey_Ducay_CV.pdf" download="Junrey_Ducay_CV.pdf">Download full CV</a>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal"><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-card current-role">
+            <div class="role-heading"><div><p class="company">Pacer Solutions</p><h3>M365 Developer Lead</h3></div><time>Oct 2025 — Present</time></div>
+            <ul><li>Developed SharePoint Online and SPFx solutions, including custom web parts, library buttons, and client-specific functionality.</li><li>Built Vehicle and Task Management applications using Power Apps and Microsoft 365 technologies.</li><li>Created custom Outlook add-ins to extend email functionality and support business processes.</li><li>Integrated SharePoint and Power Apps with Xero using custom connectors and live Xero API connections.</li></ul>
+          </div></article>
+          <article class="timeline-item reveal"><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-card">
+            <div class="role-heading"><div><p class="company">Accenture</p><h3>Application Development Senior Analyst</h3></div><time>Feb 2025 — Oct 2025</time></div>
+            <ul><li>Developed and modified Salesforce Lightning Web Components, including forms, UI components, validations, and Salesforce data integration.</li><li>Configured Salesforce objects, fields, permissions, and application components, and troubleshot issues during development and testing.</li><li>Developed a Power Apps Incident Management System with forms, business logic, data handling, and user access.</li><li>Built multi-level approval workflows in Power Automate and Power BI reports for incidents, approval status, and operational data.</li></ul>
+          </div></article>
+          <article class="timeline-item reveal"><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-card">
+            <div class="role-heading"><div><p class="company">Gallium31 Corporation</p><h3>IT SharePoint Developer</h3></div><time>Aug 2021 — Jan 2025</time></div>
+            <ul><li>Developed an RFID Management App in Power Apps with forms, business rules, validation, record tracking, and SharePoint integration.</li><li>Built a Business Insurance System using Power Apps, Power Automate, and Power BI for approvals, notifications, and reporting.</li><li>Supported the PHP-based Yarda application by investigating issues, fixing defects, updating forms and fields, and modifying validation and PHP functionality.</li><li>Developed Power BI reports and dashboards to track requests, statuses, and business performance.</li></ul>
+          </div></article>
+          <article class="timeline-item reveal"><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-card">
+            <div class="role-heading"><div><p class="company">Viseo</p><h3>SharePoint Developer</h3></div><time>Mar 2021 — Aug 2021</time></div>
+            <ul><li>Modernized a SharePoint publishing site by upgrading the UI from Bootstrap 3 to Bootstrap 4 and updating outdated styles and components.</li><li>Maintained the CHI SharePoint publishing site and fixed cross-site scripting vulnerabilities.</li><li>Enhanced SharePoint solutions with page updates, custom functionality, and process changes based on client requirements.</li><li>Developed and maintained SharePoint-based approval processes and business workflows.</li></ul>
+          </div></article>
+          <article class="timeline-item reveal"><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-card">
+            <div class="role-heading"><div><p class="company">House of IT</p><h3>SharePoint Developer</h3></div><time>Aug 2018 — Mar 2021</time></div>
+            <ul><li>Built and maintained SharePoint sites, custom web parts, and a real-time chat application for internal business processes and collaboration.</li><li>Gathered requirements, resolved technical issues, and enhanced existing solutions with users and business teams.</li><li>Trained and supported the Total Quality Management team in maintaining content and handling day-to-day SharePoint changes.</li><li>Recreated legacy system interfaces in SharePoint 2013 to improve usability and performance.</li></ul>
+          </div></article>
+        </div>
+      </div>
+    </section>
 
-		<div id="colorlib-main">
-			<section id="colorlib-hero" class="js-fullheight" data-section="home">
-				<div class="flexslider js-fullheight">
-					<ul class="slides">
-				   	<li style="background-image: url(images/robot2.jpg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner js-fullheight">
-										<div class="desc">
-											<h1>Hi! <br>I'm Junrey</h1>
-											<h2>SharePoint Developer with extensive expertise in PowerApps, Power Automate, and
-												SharePoint Online. Proficient in full-stack web development, I excel in creating and
-												optimizing applications that enhance business processes and collaboration. Committed
-												to delivering high-quality, user-centric solutions to improve operational efficiency.</h2>
-											<p><a class="btn btn-primary btn-learn" href="https://junreyd.github.io/files/junreyDucCV.pdf" download="Junrey_CV.pdf">Download CV <i class="icon-download4"></i></a></p>
-										</div>										
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				   	<li style="background-image: url(images/robot3.png);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner">
-										<div class="desc">
-											<h1>Hi! <br>I'm Junrey</h1>
-											<h2>SharePoint Developer with extensive expertise in PowerApps, Power Automate, and
-												SharePoint Online. Proficient in full-stack web development, I excel in creating and
-												optimizing applications that enhance business processes and collaboration. Committed
-												to delivering high-quality, user-centric solutions to improve operational efficiency.</h2>
-											<p><a class="btn btn-primary btn-learn" href="https://junreyd.github.io/files/junreyDucCV.pdf" download="Junrey_CV.pdf">Download CV <i class="icon-download4"></i></a></p>
-										</div>	
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				  	</ul>
-			  	</div>
-			</section>
+    <section class="section section-muted" id="skills" aria-labelledby="skills-title">
+      <div class="shell">
+        <div class="section-heading reveal"><p class="eyebrow">Toolkit</p><h2 id="skills-title">Skills built for end-to-end delivery.</h2><p>From solution architecture and secure integrations to front-end experiences, deployment, and support.</p></div>
+        <div class="skills-grid">
+          <article class="skill-group reveal"><h3>Microsoft 365</h3><div class="tag-cloud"><span>SharePoint Online</span><span>SharePoint 2013/2016</span><span>SPFx</span><span>Microsoft Graph API</span><span>REST API</span><span>CSOM</span><span>Outlook Add-ins</span></div></article>
+          <article class="skill-group reveal"><h3>Power Platform &amp; Azure</h3><div class="tag-cloud"><span>Power Apps</span><span>Power Automate</span><span>Power BI</span><span>Dataverse</span><span>Azure Functions</span><span>Logic Apps</span><span>Custom Connectors</span></div></article>
+          <article class="skill-group reveal"><h3>Development</h3><div class="tag-cloud"><span>JavaScript ES6+</span><span>TypeScript</span><span>HTML5</span><span>CSS3</span><span>SASS</span><span>React</span><span>Node.js</span><span>PHP</span><span>C#</span><span>ASP.NET</span></div></article>
+          <article class="skill-group reveal"><h3>Delivery &amp; Platforms</h3><div class="tag-cloud"><span>Salesforce LWC</span><span>PnP PowerShell</span><span>PnP Provisioning</span><span>CI/CD</span><span>Source Control</span><span>Agile/Scrum</span><span>Secure Development</span></div></article>
+        </div>
+      </div>
+    </section>
 
-			<section class="colorlib-about" data-section="about">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="col-md-12">
-									<div class="about-desc">
-										<span class="heading-meta">About Myself</span>
-										<h2 class="colorlib-heading">Who Am I?</h2>
-										<p><strong>Hello! I'm Junrey</strong> a dynamic and detail-oriented Full-Stack Developer and SharePoint Expert. With a strong background in Graphic and Web Design, I specialize in crafting engaging, efficient, and scalable solutions that empower businesses and enhance user experience.</p>
-										<p>My journey in the IT industry has equipped me with profound knowledge and hands-on expertise in SharePoint, both classic and modern environments, and I have successfully leveraged this platform to streamline operations and foster collaboration across various organizational levels.</p>
-										<p>As a Full-Stack Developer, I bring front-to-back end proficiency in creating applications that are not only functional but also aesthetically pleasing. My skill set includes HTML, CSS, JavaScript, and modern frameworks like React and Node.js, allowing me to build robust, responsive websites and applications.</p>
-										<p>Beyond coding, I have a passion for Graphic Design and Web Design, where I combine creativity with technology to produce visually appealing and intuitive designs. My goal is to create digital experiences that are not only visually engaging but also highly functional.</p>
-										<p>I'm committed to lifelong learning and continuous improvement, always seeking new challenges and opportunities to apply my skills in more innovative ways. Whether developing complex software applications or designing user-friendly websites, I am dedicated to delivering high-quality results that exceed expectations.</p>
-										<p>Looking to enhance your business processes with smart, effective software solutions? Let's connect!</p>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-									<div class="services color-1">
-										<span class="icon2"><i class="icon-bulb"></i></span>
-										<h3>Graphic Design</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
-									<div class="services color-2">
-										<span class="icon2"><i class="icon-globe-outline"></i></span>
-										<h3>Web Design</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
-									<div class="services color-3">
-										<span class="icon2"><i class="icon-data"></i></span>
-										<h3>Software</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
-									<div class="services color-4">
-										<span class="icon2"><i class="icon-phone3"></i></span>
-										<h3>Application</h3>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<div class="hire">
-										<h2>I am happy to know you <br>that 100+ projects done sucessfully!</h2>
-										<a href="mailto:ducjunrey@gmail.com?subject=Ready to Drive Success in Your Next Big Project!" class="btn-hire">Hire me</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+    <section class="section section-light credentials" aria-labelledby="credentials-title">
+      <div class="shell credentials-grid">
+        <div class="education-card reveal"><p class="eyebrow">Education</p><h2 id="credentials-title">A foundation in information technology.</h2><div class="credential-row"><span>2014 — 2018</span><div><h3>Bachelor of Science in Information Technology</h3><p>Salazar Colleges of Science and Institute of Technology (SCSIT)</p></div></div></div>
+        <div class="cert-card reveal"><p class="eyebrow">Credentials &amp; recognition</p><ul><li><span>01</span> Microsoft 365 Certified: Teams Application Developer Associate</li><li><span>02</span> Cyber Security Training</li><li><span>03</span> SCSIT Backend Programmer</li><li><span>04</span> Positive Attitude Award, House of IT</li></ul></div>
+      </div>
+    </section>
 
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="shell contact-inner reveal">
+        <p class="eyebrow eyebrow-light">Let's build something useful</p><h2 id="contact-title">Have a process that should work better?</h2><p>Let’s talk about a reliable Microsoft 365 solution that fits your team, data, and day-to-day workflow.</p>
+        <div class="contact-actions"><a class="button button-light" href="mailto:ducjunrey@gmail.com?subject=Microsoft%20365%20project%20inquiry">ducjunrey@gmail.com <span aria-hidden="true">↗</span></a><a class="contact-phone" href="tel:+639566011002">+63 956 601 1002</a></div>
+      </div>
+    </section>
+  </main>
 
-			
-			<section class="colorlib-services" data-section="services">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">What I do?</span>
-							<h2 class="colorlib-heading">Here are some of my expertise</h2>
-						</div>
-					</div>
-					<div class="row row-pt-md">
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-1">
-								<span class="icon">
-									<i class="icon-bulb"></i>
-								</span>
-								<div class="desc">
-									<h3>Innovative Ideas</h3>
-									<p>Pioneering strategic solutions for complex challenges.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-2">
-								<span class="icon">
-									<i class="icon-data"></i>
-								</span>
-								<div class="desc">
-									<h3>Software</h3>
-									<p>Architecting and developing cutting-edge software solutions.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-3">
-								<span class="icon">
-									<i class="icon-phone3"></i>
-								</span>
-								<div class="desc">
-									<h3>Application</h3>
-									<p>Delivering high-performance, user-centric application designs.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-4">
-								<span class="icon">
-									<i class="icon-layers2"></i>
-								</span>
-								<div class="desc">
-									<h3>Graphic Design</h3>
-									<p>Creating visually compelling and brand-aligned graphic designs.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-5">
-								<span class="icon">
-									<i class="icon-infinity-outline"></i>
-								</span>
-								<div class="desc">
-									<h3>AI</h3>
-									<p>Leveraging AI to enhance automation and data-driven decision-making.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-6">
-								<span class="icon">
-									<i class="icon-support"></i>
-								</span>
-								<div class="desc">
-									<h3>SECURITY</h3>
-									<p>Ensuring top-tier security in application development and data integrity.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			
-			<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
-				<div class="overlay"></div>
-				<div class="colorlib-narrow-content">
-					<div class="row">
-					</div>
-					<div class="row">
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="309" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Cups of coffee</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="121" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Projects</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="8" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Clients</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="10" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Partners</span>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<section class="colorlib-skills" data-section="skills">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">My Specialty</span>
-							<h2 class="colorlib-heading animate-box">My Skills</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<p>Skilled in designing and developing solutions across SharePoint, full-stack web technologies, and graphic design. My expertise spans creating intuitive, efficient applications and engaging digital experiences. Committed to delivering high-quality, user-centric solutions to optimize business processes and collaboration.</p>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>SharePoint</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="98"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:98%">
-								    <span>98%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>PowerApps</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="90"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-								    <span>90%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>PowerAutomate</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="95"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:95%">
-								    <span>95%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>PowerBI</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-								    <span>90%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>Custom Outlook Add-ins</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="90"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-								    <span>90%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>ASP.Net</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>JavaScript</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-7" role="progressbar" aria-valuenow="98"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:98%">
-								    <span>98%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>HTML5</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-8" role="progressbar" aria-valuenow="99"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:99%">
-								    <span>99%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>CSS3</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-9" role="progressbar" aria-valuenow="98"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:98%">
-								    <span>98%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>PHP</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-10" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>Node JS</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-11" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>React</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-12" role="progressbar" aria-valuenow="90"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-								    <span>90%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>Vue</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-13" role="progressbar" aria-valuenow="90"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-								    <span>90%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>Angular</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-14" role="progressbar" aria-valuenow="75"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
-								    <span>75%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>Powershell</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-15" role="progressbar" aria-valuenow="95"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:95%">
-								    <span>95%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>C#</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-16" role="progressbar" aria-valuenow="90"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-								    <span>90%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>Shopify Liquid</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-17" role="progressbar" aria-valuenow="90"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-								    <span>90%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>Salesforce</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-18" role="progressbar" aria-valuenow="70"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
-								    <span>70%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="colorlib-education" data-section="education">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Education</span>
-							<h2 class="colorlib-heading animate-box">Education</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<div class="fancy-collapse-panel">
-								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingOne">
-									        <h4 class="panel-title">
-									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">College Education
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-											<div class="panel-body">
-									            <p>At <strong>Salazar Colleges of Science & Institute of Technology</strong>, I pursued a Bachelor of Science in Information Technology, a journey that was both challenging and enriching. These years were transformative, providing a comprehensive dive into the world of IT—from the essentials of computer systems to advanced topics in programming, networking, and graphic design. The curriculum not only equipped me with technical skills but also nurtured my analytical thinking and problem-solving abilities. Projects and team collaborations were a cornerstone of the experience, enabling me to develop a balance of leadership skills and technical expertise. This education laid a solid foundation for my career, fostering a deep understanding of how innovative technology can drive progress and efficiency in the modern world.</p>	
-									        </div>
-									    </div>
-									</div>
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingFour">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">High School Education
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-									        <div class="panel-body">
-									            <p>My high school years at <strong>Patao National High School</strong> were a period of significant growth and exploration. Situated in the familiar locale of Patao, Bantayan, Cebu, it was during these formative years that I first encountered the basics of computers. This introduction to computer fundamentals was not only fascinating but also pivotal, as it laid the groundwork for my future career in technology. Through engaging lessons and supportive teachers, I developed a keen interest in understanding how technology can solve everyday problems and enhance lives.</p>	
-									        </div>
-									    </div>
-									</div>
-
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingFive">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Elementary Education
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-									        <div class="panel-body">
-									            <p>My educational journey began at San Jose Elementary School, nestled in the charming town of <strong>Patao, Bantayan, Cebu.</strong> These formative years were crucial in developing a strong foundation in the basics and instilling a love for learning that has guided my personal and professional growth. The nurturing environment and encouragement from dedicated teachers sparked my curiosity and helped shape the person I am today.</p>	
-									        </div>
-									    </div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="colorlib-experience" data-section="experience">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Experience</span>
-							<h2 class="colorlib-heading animate-box">Work Experience</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-				         <div class="timeline-centered">
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-
-					               <div class="timeline-icon color-1">
-					                  <i class="icon-pen2"></i>
-					               </div>
-
-					               <div class="timeline-label">
-					                  <h2><a href="https://www.pacer.solutions">M365 | SharePoint Developer Lead at Pacer Solutions</a> <span>Oct 2022 - Present</span></h2>
-					                  <p>Developed complex SharePoint SPFx solutions and extended SharePoint
-										capabilities by creating custom buttons in the library ribbon, significantly
-										enhancing user functionality and operational efficiency.</p>
-										<p>
-										Pioneered the integration of PowerApps, Power Automate, and Outlook add-ins,
-										delivering tailored solutions that streamlined client operations and consistently
-										exceeded user expectations by simplifying complex processes.
-										</p>
-					               </div>
-					            </div>
-					         </article>
-
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-2">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="https://www.clinkitsolutions.com">Senior SharePoint Developer at Clink IT</a> <span>Apr 2022 - Oct 2022</span></h2>
-					                  <p>Led SharePoint Online enhancements, focusing on the integration of advanced
-										JavaScript and HTML web parts, and replicated user interfaces from legacy
-										systems to SharePoint Online, which streamlined user experience and system
-										performance.</p>
-										<p>
-										Spearheaded user-centric development initiatives, aligning SharePoint solutions
-										tightly with specific business functions, thereby boosting overall productivity and
-										user satisfaction.
-										</p>
-					               </div>
-					            </div>
-					         </article>
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-3">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="https://www.accenture.com/ph-en">Application Development Senior Analyst at Accenture</a> <span>Oct 2021 - Apr 2022</span></h2>
-					                  <p>Drove significant advancements in Salesforce using Lightning Web
-										Components, managing both development and administrative functions to
-										enhance platform robustness and user interaction.</p>
-										<p>
-										Directed the transformation of legacy systems to modern PowerApps solutions,
-										emphasizing security enhancements and operational efficiency, which resulted
-										in elevated system reliability and user trust.
-										</p>
-					               </div>
-					            </div>
-					         </article>
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-4">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="https://www.viseo.com/en/emea">SharePoint Developer at Viseo</a> <span>Mar 2021 - Oct 2021</span></h2>
-					                  <p>Led the technical migration of a publishing site from Bootstrap 3 to Bootstrap 4,
-										and heightened security measures for a web-based search bar to prevent XSS
-										attacks, marking significant strides in web security and user safety.</p>
-										<p>
-										Collaborated with diverse business units and external partners to deliver custom
-										SharePoint solutions that met unique business needs, establishing a foundation
-										for continued digital transformation and efficiency.
-										</p>
-					               </div>
-					            </div>
-					         </article>
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-5">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="https://houseofit.com.au/">SharePoint Developer at House of IT</a> <span>Aug 2018 - Mar 2021</span></h2>
-					                  <p>Developed dynamic SharePoint functionalities including real-time chat
-										applications and tailored web parts, fostering enhanced communication and
-										user interaction.</p>
-										<p>
-										Delivered specialized training sessions for the Total Quality Management (TQM)
-										team, focusing on empowering them with the skills needed for independent
-										web updates and modifications, while actively engaging in Agile project reviews
-										to steer continuous improvements.</p>
-					               </div>
-					            </div>
-					         </article>
-
-					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-none">
-					               </div>
-					            </div>
-					         </article>
-					      </div>
-					   </div>
-				   </div>
-				</div>
-			</section>
-
-			<!-- <section class="colorlib-work" data-section="work">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">My Work</span>
-							<h2 class="colorlib-heading animate-box">Recent Work</h2>
-						</div>
-					</div>
-					<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-						<div class="col-md-12">
-							<p class="work-menu"><span><a href="#" class="active">Graphic Design</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-1.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 01</a></h3>
-										<span>Website</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/img-2.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 02</a></h3>
-										<span>Animation</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
-							<div class="project" style="background-image: url(images/img-3.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 03</a></h3>
-										<span>Illustration</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-							<div class="project" style="background-image: url(images/img-4.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 04</a></h3>
-										<span>Application</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-5.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 05</a></h3>
-										<span>Graphic, Logo</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/img-6.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 06</a></h3>
-										<span>Web Design</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box">
-							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
-						</div>
-					</div>
-				</div>
-			</section> -->
-
-			<section class="colorlib-work" data-section="work">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">My Work</span>
-							<h2 class="colorlib-heading animate-box">Recent Work</h2>
-						</div>
-					</div>
-					<!-- Under Maintenance Message -->
-					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<div class="under-maintenance">
-								<img src="images/underMaintenance2.png" alt="Under Maintenance" style="width: 100%; max-width: 600px; display: block; margin: 0 auto;">
-								<br>
-								<p style="text-align: center;">I am currently updating this section. Sorry for the inconvenience and thank you for your patience!</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			
-			<!-- <section class="colorlib-blog" data-section="blog">
-				<div class="colorlib-narrow-content">
-					<div class="row" id="news-container"></div>
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Read</span>
-							<h2 class="colorlib-heading">Recent Blog</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Renovating National Gallery</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Wordpress for a Beginner</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Make website from scratch</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box">
-							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
-						</div>
-					</div>
-				</div>
-			</section> -->
-
-			<section class="colorlib-contact" data-section="contact">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Get in Touch</span>
-							<h2 class="colorlib-heading">Contact</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-5">
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-globe-outline"></i>
-								</div>
-								<div class="colorlib-text">
-									<p><a href="mailto:ducjunrey@gmail.com">ducjunrey@gmail.com</a></p>
-								</div>
-							</div>
-
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-map"></i>
-								</div>
-								<div class="colorlib-text">
-									<p>Bantayan, Cebu PH 6052</p>
-								</div>
-							</div>
-
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-phone"></i>
-								</div>
-								<div class="colorlib-text">
-									<p><a href="#">+63956 601 1002</a></p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-7 col-md-push-1">
-							<div class="row">
-								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
-									<form action="">
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Name">
-										</div>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Email">
-										</div>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Subject">
-										</div>
-										<div class="form-group">
-											<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-										</div>
-										<div class="form-group">
-											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
-										</div>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-		</div><!-- end:colorlib-main -->
-	</div><!-- end:container-wrap -->
-	</div><!-- end:colorlib-page -->
-
-	
-
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- Owl carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- Counters -->
-	<script src="js/jquery.countTo.js"></script>
-	
-	
-	<!-- MAIN JS -->
-	<script src="js/main.js"></script>
-	<!-- <script>
-		document.addEventListener("DOMContentLoaded", function() {
-			const apiKey = '51bfced371dd471b9955bf1227d9fba7';  // Make sure to use your actual API key here
-			const url = `https://newsapi.org/v2/top-headlines?category=technology&apiKey=${apiKey}`;
-	
-			fetch(url)
-				.then(response => response.json())
-				.then(data => {
-					const articles = data.articles;
-					let blogHTML = '';
-					articles.forEach(article => {
-						blogHTML += `
-							<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-								<div class="blog-entry">
-									<a href="${article.url}" class="blog-img"><img src="${article.urlToImage}" class="img-responsive" alt="${article.title}"></a>
-									<div class="desc">
-										<span><small>${new Date(article.publishedAt).toLocaleDateString()} </small> | <small> ${article.source.name} </small> | <small> <i class="icon-bubble3"></i> Comments</small></span>
-										<h3><a href="${article.url}">${article.title}</a></h3>
-										<p>${article.description}</p>
-									</div>
-								</div>
-							</div>
-						`;
-					});
-					document.querySelector('#news-container').innerHTML = blogHTML;  // Corrected to target #news-container
-				})
-				.catch(error => console.error('Error fetching news:', error));
-		});
-	</script> -->
-	</body>
+  <footer class="site-footer"><div class="shell footer-inner"><div><strong>Junrey Ducay</strong><span>Microsoft 365 Developer · Bantayan Island, Cebu, Philippines</span></div><p>© <span id="year">2026</span> Junrey Ducay. Built with care.</p><a href="#top">Back to top <span aria-hidden="true">↑</span></a></div></footer>
+</body>
 </html>
-
